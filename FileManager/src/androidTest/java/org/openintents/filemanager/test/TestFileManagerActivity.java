@@ -302,7 +302,7 @@ public class TestFileManagerActivity extends org.openintents.filemanager.test.Ba
         Espresso.pressBack();
     }
 
-    @Test
+    /*@Test
     public void testHiddenFiles() throws IOException {
         clickOnTestDirectory();
 
@@ -318,7 +318,7 @@ public class TestFileManagerActivity extends org.openintents.filemanager.test.Ba
         checkIsNotContainedInList(hasName(".oi-hidden.txt"));
 
         Espresso.pressBack();
-    }
+    }*/
 
     @Test
     public void testOrder() throws IOException, InterruptedException {
